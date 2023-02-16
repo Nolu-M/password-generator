@@ -12,15 +12,13 @@ div {
     padding-bottom: 64px;
     padding-left: 62px;
     padding-right: 641px;
-
+    display: inline-block;
 }
 
 h1 {
     font-family: 'karla', sans-serif;
     margin-top: 115px;
     margin-left: 52px;
-    margin-right: 144px;
-    margin-bottom: 10px;
     color: #FFFFFF;
     font-size:40px;
     font-weight: 800px;
@@ -28,6 +26,19 @@ h1 {
     line-height: 40px;
     letter-spacing: -0.02em;
     width: 354px;
+}
+
+span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #4ADF86;
+    margin-right: 144px;
+    width: 354px;
+    font-style: normal;
+    display:inline-block;
 }
 
 p {
@@ -75,6 +86,8 @@ hr {
     margin-top: 35px;
     margin-bottom: 115;
     margin-right: 24px;
+    float: left;
+    border: 0px;
 }
 
 #password-el2 {
@@ -85,6 +98,7 @@ hr {
     margin-left: 287px;
     margin-bottom: 115px;
     margin-right: 52px;
-    display: flex;
-    justify-self: center;
+    margin-top: -41px;
+    float: right;
+    border: 0px;
 }
