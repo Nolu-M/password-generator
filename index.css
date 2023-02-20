@@ -1,5 +1,6 @@
 body{
     background: #1C1C1C;
+    display: flex;
     
 }
 
@@ -13,6 +14,7 @@ div {
     padding-left: 62px;
     padding-right: 641px;
     display: inline-block;
+    
 }
 
 h1 {
