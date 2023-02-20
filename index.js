@@ -1,6 +1,6 @@
-function generatePassword() {
+function generatePasswords() {
     const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()_-+={[}],|:;<>.?/";
-    let passwordLength = 15;
+    const passwordLength = 15;
     let password1 = "";
     let password2 = "";
     
@@ -8,8 +8,9 @@ function generatePassword() {
         password1 += characters.charAt(Math.floor( Math.random() * characters.length));
         password2 += characters.charAt(Math.floor( Math.random() * characters.length));
     }
-console.log(`Password 1: ${password1}`);
-console.log(`Password 2: ${password2}`);
+
+    document.getElementById("password1").value = password1;
+    document.getElementById("password2").value = password2;
 }
 
-generatePassword();
+generatePasswords();
